@@ -15,7 +15,9 @@ Issue a standard ERC20 tokens using OpenZeppelin framework.
 ## Setting Up
 ### 1. Clone/Download the Repository
 
-### 2. Install Dependencies:
+Create a folder named "erc20" locally.
+
+### 2. Install Dependencies
 ```
 $ cd erc20
 $ npm install
@@ -38,7 +40,7 @@ $ npx hardhat node
 ### 6. Run Tests
 `$ npx hardhat test`
 
-You should get
+You should get something like this:
 
 ```
 ERC20 contract
