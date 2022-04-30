@@ -29,7 +29,7 @@ $ npx hardhat node
 ```
 
 ### 4. Connect development blockchain accounts to Metamask
-- Copy private key of the addresses and import to Metamask
+- Copy private key of the addresses and import to Metamask.
 - Connect your metamask to hardhat blockchain, network 127.0.0.1:8545.
 - If you have not added hardhat to the list of networks on your metamask, open up a browser, click the fox icon, then click the top center dropdown button that lists all the available networks then click add networks. A form should pop up. For the "Network Name" field enter "Hardhat". For the "New RPC URL" field enter "http://127.0.0.1:8545". For the chain ID enter "31337". Then click save.  
 
@@ -43,13 +43,21 @@ $ npx hardhat node
 You should get something like this:
 
 ```
-ERC20 contract
+A standard ERC20 contract
+    Migration
 The owner address is: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
-Total supply is: 12345678
-    ✔ Deployment should assign the total supply of tokens to the owner (707ms)
+Total supply is: 1000000
+      ✔ Should track the name, symbol and decimal of the ERC20 token (48ms)
+The owner address is: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+Total supply is: 1000000
+      ✔ Should check the total supply and owner's balance (48ms)
+    Transaction
+The owner address is: 0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+Total supply is: 1000000
+      ✔ Should transfer tokens between accounts (70ms)
 
 
-  1 passing (710ms)
+  3 passing (1s)
 ```
 
 License
