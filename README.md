@@ -1,6 +1,6 @@
-# A standard ERC20
+# ERC20
 
-Issue ERC20 tokens using OpenZeppelin framework.
+Issue a standard ERC20 tokens using OpenZeppelin framework.
 
 ## Technology Stack & Tools
 
