@@ -9,7 +9,7 @@ describe("A standard ERC20 contract", function () {
     let owner;
     let addr1;
     let addr2;
-    let tl = 1000000 // initial total supply
+    let tl = '1000000000000000000000000' // initial total supply
     
     beforeEach(async function() {
         // Deploy the contract, and pass in the inital amount of 1000000 tokens.

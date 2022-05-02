@@ -9,7 +9,7 @@ async function main() {
 
   // deploy contracts here:
   const Token = await ethers.getContractFactory("Token");
-  const token = await Token.deploy(100);
+  const token = await Token.deploy('1000000000000000000000000'); // 1 million token, with decimal of 18
 
   console.log("Token contract address:", token.address);
 }
