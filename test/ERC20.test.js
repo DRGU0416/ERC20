@@ -24,7 +24,7 @@ describe("A standard ERC20 contract", function () {
     describe("Migration", function () {
         it("Should track the name, symbol and decimal of the ERC20 token", async function() {
           const tokenName = "Token Name";
-          const tokenSymbol = "Token Symbol";
+          const tokenSymbol = "TKN";
           expect(await hardhatToken.name()).to.equal(tokenName);
           expect(await hardhatToken.symbol()).to.equal(tokenSymbol);
           expect(await hardhatToken.decimals()).to.equal(18);  // default for ERC20
